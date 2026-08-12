@@ -5,7 +5,6 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/oakvalley_app/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
